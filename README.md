@@ -1,5 +1,9 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Status
+
+Travis CI says: [![Build Status](https://travis-ci.org/iamdmitrij/ps-react-iamdmitrij.svg?branch=master)](https://travis-ci.org/iamdmitrij/ps-react-iamdmitrij)
+
 ## Available Scripts
 
 In the project directory, you can run:
