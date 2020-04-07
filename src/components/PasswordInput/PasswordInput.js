@@ -9,12 +9,12 @@ class PasswordInput extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      showPassword: false
+      showPassword: false,
     };
   }
 
-  toggleShowPassword = event => {
-    this.setState(prevState => {
+  toggleShowPassword = (event) => {
+    this.setState((prevState) => {
       return { showPassword: !prevState.showPassword };
     });
     if (event) event.preventDefault();
@@ -94,13 +94,13 @@ PasswordInput.propTypes = {
   quality: PropTypes.number,
 
   /** Validation error to display */
-  error: PropTypes.string
+  error: PropTypes.string,
 };
 
 PasswordInput.defaultProps = {
   maxLength: 50,
   showVisibilityToggle: false,
-  label: "Password"
+  label: "Password",
 };
 
 export default PasswordInput;
