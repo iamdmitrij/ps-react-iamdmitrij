@@ -5,7 +5,7 @@
   "engines": {
     "node": ">=4.0.0"
   },
-  "author": "Dmitrij Biriukov <dmb@danskebank.lt>",
+  "author": "Dmitrij",
   "files": [
     "lib"
   ],
